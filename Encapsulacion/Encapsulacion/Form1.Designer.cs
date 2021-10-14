@@ -1,5 +1,4 @@
-﻿
-namespace ClasesYObjetos
+﻿namespace Encapsulacion
 {
     partial class Form1
     {
@@ -38,4 +37,3 @@ namespace ClasesYObjetos
         #endregion
     }
 }
-
