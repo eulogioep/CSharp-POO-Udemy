@@ -34,6 +34,8 @@ namespace EjercicioPolimorfismo
             this.btnInfo2 = new System.Windows.Forms.Button();
             this.btnInfo3 = new System.Windows.Forms.Button();
             this.btnInfo4 = new System.Windows.Forms.Button();
+            this.btnVirtual = new System.Windows.Forms.Button();
+            this.btnOverride = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -89,11 +91,35 @@ namespace EjercicioPolimorfismo
             this.btnInfo4.UseVisualStyleBackColor = true;
             this.btnInfo4.Click += new System.EventHandler(this.btnInfo4_Click);
             // 
+            // btnVirtual
+            // 
+            this.btnVirtual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVirtual.Location = new System.Drawing.Point(453, 187);
+            this.btnVirtual.Name = "btnVirtual";
+            this.btnVirtual.Size = new System.Drawing.Size(122, 40);
+            this.btnVirtual.TabIndex = 5;
+            this.btnVirtual.Text = "Virtual";
+            this.btnVirtual.UseVisualStyleBackColor = true;
+            this.btnVirtual.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // btnOverride
+            // 
+            this.btnOverride.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOverride.Location = new System.Drawing.Point(581, 187);
+            this.btnOverride.Name = "btnOverride";
+            this.btnOverride.Size = new System.Drawing.Size(122, 40);
+            this.btnOverride.TabIndex = 6;
+            this.btnOverride.Text = "Override";
+            this.btnOverride.UseVisualStyleBackColor = true;
+            this.btnOverride.Click += new System.EventHandler(this.btnOverride_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 537);
+            this.Controls.Add(this.btnOverride);
+            this.Controls.Add(this.btnVirtual);
             this.Controls.Add(this.btnInfo4);
             this.Controls.Add(this.btnInfo3);
             this.Controls.Add(this.btnInfo2);
@@ -113,6 +139,8 @@ namespace EjercicioPolimorfismo
         private System.Windows.Forms.Button btnInfo2;
         private System.Windows.Forms.Button btnInfo3;
         private System.Windows.Forms.Button btnInfo4;
+        private System.Windows.Forms.Button btnVirtual;
+        private System.Windows.Forms.Button btnOverride;
     }
 }
 

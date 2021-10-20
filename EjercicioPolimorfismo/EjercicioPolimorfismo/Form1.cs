@@ -52,5 +52,23 @@ namespace EjercicioPolimorfismo
 
             txtBox.Text = textoMensaje;
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Empleado2 empleado2 = new Empleado2();
+            string textoMensaje = empleado2.SetValores(1, "Juan Antonio", 2000);
+            
+
+            txtBox.Text = textoMensaje;
+        }
+
+        private void btnOverride_Click(object sender, EventArgs e)
+        {
+            Profesor2 profesor2 = new Profesor2();
+            string textoMensaje = profesor2.SetValores(1, "Juan Antonio", 2000);
+
+
+            txtBox.Text = textoMensaje;
+        }
     }
 }
