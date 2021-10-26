@@ -24,7 +24,7 @@ namespace EjemploEnum
 
         //Ejemplo de Enumerado. Empiezan con el valor 0 pero podemos asignar otro valor.
 
-        enum colores {rojo = 4 ,azul,blanco,negro,amarillo = 2,morado,marrón,naranja };
+        enum colores {rojo = 4 ,azul,blanco,negro,amarillo = 9,morado,marrón,naranja };
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
